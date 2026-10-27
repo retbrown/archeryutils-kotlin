@@ -133,3 +133,11 @@ dmypy.json
 
 # Created data files
 *.dat
+
+# Kotlin / Gradle / IDE
+.gradle/
+build/
+.kotlin/
+local.properties
+.idea/
+*.iml
