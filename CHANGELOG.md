@@ -12,8 +12,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased](https://github.com/retbrown/archeryutils-kotlin/compare/v3.0.0...HEAD)
 
+## [3.0.0](https://github.com/retbrown/archeryutils-kotlin/releases/tag/v3.0.0)
+
 ### Added
 
-- Kotlin Multiplatform port of archeryutils targeting Android, iOS and JVM, synced with
-  upstream Python v3.0.0 plus the additional 10/15 yard/metre 2/3 dozen miscellaneous rounds:
+- Initial release: a Kotlin Multiplatform port of archeryutils targeting Android, iOS and JVM,
+  in line with the Python library v3.0.0 (including the 2026.1 AGB classifications and the
+  additional 10/15 yard/metre 2/3 dozen miscellaneous rounds):
   `length`, `targets`, `rounds`, `handicaps` and `classifications` packages.

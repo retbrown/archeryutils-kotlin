@@ -22,7 +22,7 @@ jobs:
         java-version: "21"
     - uses: gradle/actions/setup-gradle@v4
     - name: Run tests
-      run: ./gradlew jvmTest
+      run: ./gradlew jvmTest testAndroidHostTest
     - name: Check coverage
       run: ./gradlew koverVerify
     - name: Check KDoc (fails on undocumented public API)
